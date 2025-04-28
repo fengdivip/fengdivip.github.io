@@ -1,0 +1,129 @@
+.text-primary,
+.btn-outline-primary,
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item .nav-link:hover.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item .nav-link.active.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item .nav-link:focus.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item .nav-link:active.dropdown-toggle::after,
+.nav-sticky .navbar-nav .nav-item .nav-link:hover,
+.nav-sticky .navbar-nav .nav-item .nav-link:active,
+.nav-sticky .navbar-nav .nav-item .nav-link:focus,
+.nav-sticky .navbar-nav .nav-item .nav-link.active,
+.nav-sticky .navbar-nav .nav-item .nav-link.active .dropdown-toggle:after,
+
+.navbar .navbar-nav .nav-item-tabs .nav-link:hover,
+.navbar .navbar-nav .nav-item-tabs .nav-link:focus,
+.navbar .navbar-nav .nav-item-tabs .nav-link.active,
+.navbar .navbar-nav .nav-item-tabs .nav-link:hover.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item-tabs .nav-link.active.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item-tabs .nav-link:focus.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item-tabs .nav-link:active.dropdown-toggle::after,
+.nav-sticky .navbar-nav .nav-item-tabs .nav-link:hover,
+.nav-sticky .navbar-nav .nav-item-tabs .nav-link:active,
+.nav-sticky .navbar-nav .nav-item-tabs .nav-link:focus,
+.nav-sticky .navbar-nav .nav-item-tabs .nav-link.active,
+.nav-sticky .navbar-nav .nav-item-tabs .nav-link.active .dropdown-toggle:after,
+.primary-link:hover,
+.feature-icon,
+.social-list .social-icon:hover,
+.testimonial-box .testi-img .quote-icon,
+.faq .icon {
+  color: #f05050 !important;
+}
+.bg-primary,
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.works-description-left::after,
+.works-description-right::after,
+.form-check-input:checked,
+.works-description-left::after,
+.works-description-right::after,
+.ribbon,
+.sidebar .sd-title::after,
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link.active,
+.pagination .page-item .page-link:focus,
+.swiper-button-next,
+.swiper-button-prev,
+#back-to-top,
+.sidebar .tagcloud a:hover,
+.team .team-box .team-social li,
+.services .nav-pills .nav-item .nav-link.active .service-icon i,
+.services .nav-pills .nav-item-tabs .nav-link.active .service-icon i,
+.titleHR span,
+.nav-item .nav-link::before,
+.nav-item-tabs .nav-link::before,
+.services .services-lable p,
+.price-box .business-pricing-lable .business-lable-name {
+  background-color: #f05050 !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary .open > .dropdown-toggle.btn-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.btn-outline-primary.focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary .open > .dropdown-toggle.btn-primary {
+  box-shadow: 0 8px 20px -6px rgba(229, 155, 155, 1);
+}
+.form-control:focus,
+.form-check-input:checked,
+.border-primary,
+.btn-primary,
+.btn-outline-primary,
+.social-list .social-icon:hover,
+.timeline-page::after,
+.page-link.active,
+.services .nav-pills .nav-item .nav-link.active,
+.services .nav-pills .nav-item-tabs .nav-link.active,
+.page-link:hover {
+  border-color: #f05050 !important;
+}
+.swiper-pagination-bullet {
+  background-color: rgba(229, 155, 155, 1);
+}
+.price-box .business-pricing-lable .business-lable-name:after {
+  border-top-color: #f05050;
+  border-bottom-color: #f05050;
+}
+.titleHR span {
+  background: #f05050;
+}
+.timeline-page::after,
+.price-box .price-features i,
+.faq .icon {
+  background-color: rgba(253, 234, 234, 1);
+}
+.sidebar {
+  background-color: rgba(253, 234, 234, 1);
+  border: 1px solid rgba(253, 234, 234, 1);
+}
+.works-description-left:hover::after,
+.works-description-right:hover::after {
+  box-shadow: 0 0 5px 2px #f05050 !important;
+}
+.feature-icon,
+.bg-home4 {
+  background-color: rgba(253, 234, 234, 1);
+}
+.footer-nav .footer-item .footer-link:hover {
+  color: #f05050;
+}
