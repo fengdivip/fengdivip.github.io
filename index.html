@@ -37,88 +37,12 @@
       type="text/css"
       id="color-opt"
     />
-
-    <style>
-      .loading-box {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, .6);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-      }
-
-      .loader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 50px;
-        height: 10px;
-        background: #3498db;
-        border-radius: 5px;
-        -webkit-animation: load 1.8s ease-in-out infinite;
-        animation: load 1.8s ease-in-out infinite;
-      }
-      .loader:before,
-      .loader:after {
-        position: absolute;
-        display: block;
-        content: "";
-        -webkit-animation: load 1.8s ease-in-out infinite;
-        animation: load 1.8s ease-in-out infinite;
-        height: 10px;
-        border-radius: 5px;
-      }
-      .loader:before {
-        top: -20px;
-        left: 10px;
-        width: 40px;
-        background: #ef4836;
-      }
-      .loader:after {
-        bottom: -20px;
-        width: 35px;
-        background: #f5ab35;
-      }
-
-      @-webkit-keyframes load {
-        0% {
-          transform: translateX(40px);
-        }
-        50% {
-          transform: translateX(-30px);
-        }
-        100% {
-          transform: translateX(40px);
-        }
-      }
-
-      @keyframes load {
-        0% {
-          transform: translateX(40px);
-        }
-        50% {
-          transform: translateX(-30px);
-        }
-        100% {
-          transform: translateX(40px);
-        }
-      }
-    </style>
   </head>
   <body
     data-bs-spy="scroll"
     data-bs-target="#navbar-navlist"
     data-bs-offset="71"
   >
-    <div id="loading-box" class="loading-box">
-      <div class="loader"></div>
-    </div>
     <nav
       class="navbar navbar-expand-lg fixed-top navbar-white navbar-custom sticky top-0"
       id="navbar"
@@ -162,7 +86,7 @@
       </div>
     </nav>
     <!-- End Navbar -->
-    <!-- START 首页 -->
+     <!-- START 首页 -->
     <section class="bg-home1 overflow-hidden" id="home">
       <div
         class="position-absolute w-100"
@@ -322,8 +246,7 @@
               <h4 class="title">关于我们</h4>
               <div class="titleHR"><span></span></div>
               <p class="slog">
-                沈阳星火共创网络科技有限公司成立于 2021 年 7 月 13
-                日，立足辽宁省沈阳市沈北新区，专注房地产咨询与经纪服务。<br /><br />
+                沈阳星火共创网络科技有限公司成立于 2021 年 7 月 13 日，立足辽宁省沈阳市沈北新区，专注房地产咨询与经纪服务。<br/><br/>
                 在房地产咨询领域，我们拥有专业团队，凭借对市场趋势与政策的深入研究，为客户提供投资分析、购房策略等专业建议。在房地产经纪业务上，我们构建了丰富房源网络，以诚信高效的服务，为客户精准匹配房源，全程协助交易，保障买卖双方顺利完成房产交易。
                 成立以来，公司凭借专业服务积累了良好口碑，未来将持续深耕沈北，提升服务品质，助力区域房地产市场发展。
               </p>
@@ -374,7 +297,7 @@
       </div>
     </section>
     <!-- END COUNTER -->
-    <!-- START 业务范围 -->
+     <!-- START 业务范围 -->
     <section class="section services" id="services">
       <div class="container">
         <div class="row">
@@ -1034,7 +957,7 @@
                       <div class="position-relative mb-3">
                         <label for="name" class="form-label">姓名</label
                         ><input
-                          disabled="disabled"
+                        disabled="disabled"
                           name="name"
                           id="name"
                           type="text"
@@ -1045,9 +968,10 @@
                     </div>
                     <div class="mb-3">
                       <div class="position-relative mb-3">
-                        <label for="email" class="form-label">Email</label
+                        <label for="email" class="form-label"
+                          >Email</label
                         ><input
-                          disabled="disabled"
+                        disabled="disabled"
                           name="email"
                           id="email"
                           type="email"
@@ -1060,7 +984,7 @@
                       <div class="position-relative mb-3">
                         <label for="subject" class="form-label">主题</label
                         ><input
-                          disabled="disabled"
+                        disabled="disabled"
                           name="subject"
                           id="subject"
                           type="text"
@@ -1074,9 +998,10 @@
                   <div class="col-lg-6">
                     <div class="mb-4">
                       <div class="position-relative mb-3">
-                        <label for="message" class="form-label">信息</label
+                        <label for="message" class="form-label"
+                          >信息</label
                         ><textarea
-                          disabled="disabled"
+                        disabled="disabled"
                           name="comments"
                           id="comments"
                           rows="4"
@@ -1088,7 +1013,7 @@
                     <div class="row">
                       <div class="col-lg-12">
                         <input
-                          disabled="disabled"
+                        disabled="disabled"
                           type="submit"
                           id="submit"
                           name="send"
@@ -1113,21 +1038,18 @@
       <!--end container-->
     </section>
     <!-- <section-->
-    <section
-      class="address-bg fixed-bg"
-      style="background-position: 50% 18.7px"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center white-color">
-            <div class="phone-number">
-              <h1><strong>139-9839-4911</strong></h1>
+      <section class="address-bg fixed-bg" style="background-position: 50% 18.7px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center white-color">
+              <div class="phone-number">
+                <h1><strong>139-9839-4911</strong></h1>
+              </div>
+              <h4>辽宁省沈阳市沈北新区道义北大街53-72号(4门)二层</h4>
             </div>
-            <h4>辽宁省沈阳市沈北新区道义北大街53-72号(4门)二层</h4>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     <!-- <section-->
     <!-- footer alt -->
     <div class="footer-alt pt-4 pb-4">
@@ -1206,13 +1128,7 @@
     <!--start back-to-top-->
     <button onclick="topFunction()" id="back-to-top">
       <i class="mdi mdi-arrow-up"></i></button
-    ><!--end back-to-top-->
-    <script>
-      window.addEventListener("load", function () {
-        document.getElementById("loading-box").style.display = "none";
-      });
-    </script>
-    <!--Custom js-->
+    ><!--end back-to-top--><!--Custom js-->
     <script src="js/counter.js"></script>
     <!-- Bootstrap Bundale js -->
     <script src="js/bootstrap.bundle.min.js"></script>
