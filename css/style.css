@@ -1294,6 +1294,7 @@ form .input-group .btn-footer {
   border-radius: 10px;
 }
 .item-box img{
+  width: 100%;
 	transition: all .3s ease
 }
 .item-box:hover img {
@@ -1314,6 +1315,7 @@ form .input-group .btn-footer {
 	justify-content: center;
 	align-items: center;
 }
+
 
 .item-box_overlay .play-button {
 	cursor: pointer;
