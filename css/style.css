@@ -849,12 +849,12 @@ ul.pattern .color6 {
 .intro {
   height: 32px;
   color: #fff;
-  font-size: 40px;
-  margin-bottom: 44px;
+  font-size: 30px;
+  margin-bottom: 34px;
 }
 .intro .typing {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 2px;
   height: auto;
   position: relative;
