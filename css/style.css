@@ -1297,9 +1297,9 @@ form .input-group .btn-footer {
   width: 100%;
 	transition: all .3s ease
 }
-.item-box:hover img {
+/* .item-box:hover img {
 	transform: scale(1.1);
-}
+} */
 
 
 
