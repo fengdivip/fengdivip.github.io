@@ -83,16 +83,6 @@ var swiper = new Swiper(".mySwiper3", {
 });
 
 
-// GLightbox Popup
-var lightbox = GLightbox({
-  selector: '.image-popup',
-  title: false,
-});
-
-// GLightbox videos
-var lightboxInlineIframe = GLightbox({
-  selector: '.glightbox'
-});
 
 // Collapse Menu 
 const navLinks = document.querySelectorAll('.nav-item');

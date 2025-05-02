@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap";
+/* @import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"; */
 body {
   font-family: "Inter", sans-serif;
   color: #25272b;
@@ -744,6 +744,14 @@ ul.pattern .color6 {
   background-size: cover;
   background-position: center;
 }
+.banner-slogan{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+  color: #fff;
+  font-size: 1.5rem;
+}
 .navbar-custom {
   background-color: #fff !important;
   padding: 18px 0;
@@ -1157,7 +1165,7 @@ ul.pattern .color6 {
   background-color: #282727;
 }
 .team .team-box .team-social li {
-  width: 30px;
+  width: 120px;
   height: 30px;
   line-height: 30px;
   background: #f05050;
@@ -1297,9 +1305,9 @@ form .input-group .btn-footer {
   width: 100%;
 	transition: all .3s ease
 }
-/* .item-box:hover img {
+.item-box:hover img {
 	transform: scale(1.1);
-} */
+}
 
 
 
@@ -1405,4 +1413,79 @@ form .input-group .btn-footer {
   color: white;
   background-color: rgba(0,0,0,.6);
   z-index: 100;
+}
+
+.list-inline-item{
+  position: relative;
+}
+
+.wechatbox{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  z-index: 999;
+  background-color:#fff;
+  display: none;
+}
+.wechatbox i{
+  position: absolute;
+  top:0;
+  right:5px;
+  font-size: 18px;
+  color:#f05050;
+  cursor: pointer;
+}
+.wechatbox img{
+	width:100%;
+}
+.wechatshow{
+  display:block
+}
+.addWechat{
+  transition: all 0.5s;
+  overflow: hidden;
+  position: relative;
+  color:white;
+  cursor: pointer;
+}
+.addWechat span{
+  margin-left:4px;
+  font-size:12px
+}
+.addWechat:focus {
+  box-shadow: none;
+}
+.addWechat:after {
+  background: rgba(255, 255, 255, 0.25);
+  content: "";
+  height: 155px;
+  left: -75px;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 0.9s ease;
+  width: 50px;
+  z-index: 1;
+}
+.addWechat:hover:after {
+  left: 110%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.wechatbox.fade-in {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.wechatbox.fade-out {
+  animation: fadeOut 0.3s ease-in-out forwards;
 }
